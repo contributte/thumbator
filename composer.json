@@ -1,0 +1,28 @@
+{
+    "name": "f3l1x/thumbator",
+    "type": "library",
+    "description": "Easy-use util for resizing images on website.",
+    "license": "MIT",
+    "homepage": "http://github.com/f3l1x/Thumbator",
+    "authors": [
+        {
+            "name": "Milan Felix Sulc",
+            "homepage": "http://www.milansulc.cz"
+        }
+    ],
+    "require": {
+        "php": ">= 5.4",
+        "nette/utils": "2.2.*",
+        "nette/http": "2.2.*",
+        "ext-gd": "*"
+    },
+    "require-dev": {
+        "nette/tester": "1.*"
+    },
+    "autoload": {
+        "classmap": ["src/"]
+    },
+    "config": {
+        "vendor-dir": "vendor"
+    }
+}
