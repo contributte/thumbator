@@ -24,8 +24,13 @@ class ThumberStrategyTest extends TestCase
 
     public function testResize()
     {
+        $file = TEMP_DIR . '/test.jpg';
         $inst = new ThumberStrategy();
-        $inst->resize(new FakeThumbator(), __DIR__ . '/../files/800x600.jpg', TEMP_DIR . '/test.jpg', 200, 100, Image::FIT);
+        $inst->resize(new FakeThumbator(), __DIR__ . '/../files/800x600.jpg', $file, 200, 100, Image::FIT);
+
+        $image = Image::fromFile($file);
+        Assert::equal(200, $image->width);
+        Assert::equal(100, $image->height);
     }
 }
 
