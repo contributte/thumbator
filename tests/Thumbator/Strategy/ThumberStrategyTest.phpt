@@ -29,7 +29,7 @@ class ThumberStrategyTest extends TestCase
         $inst->resize(new FakeThumbator(), __DIR__ . '/../files/800x600.jpg', $file, 200, 100, Image::FIT);
 
         $image = Image::fromFile($file);
-        Assert::equal(200, $image->width);
+        Assert::equal(133, $image->width);
         Assert::equal(100, $image->height);
     }
 }
