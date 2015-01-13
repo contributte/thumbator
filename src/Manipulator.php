@@ -7,7 +7,7 @@ use Nette\Utils\Strings;
 /**
  * File manipulator
  *
- * @version 1.0-beta
+ * @version 1.0.0
  * @author Milan Felix Sulc <rkfelix@gmail.com>
  */
 final class Manipulator
@@ -17,7 +17,7 @@ final class Manipulator
     private $mask;
 
     /** @var array */
-    private $placeholders = array(
+    private $placeholders = [
         '%width%',
         '%height%',
         '%filename%',
@@ -29,7 +29,7 @@ final class Manipulator
         '%date%',
         '%time%',
         '%microtime%',
-    );
+    ];
 
     /**
      * @param string $mask
@@ -80,7 +80,7 @@ final class Manipulator
         $pathinfo = pathinfo($file);
         $ext = isset($pathinfo['extension']) ? $pathinfo['extension'] : 'img';
 
-        $replacements = array(
+        $replacements = [
             intval($width),
             intval($height),
             $pathinfo['filename'],
@@ -92,7 +92,7 @@ final class Manipulator
             date('dmy'),
             time(),
             microtime()
-        );
+        ];
 
         return str_replace($this->placeholders, $replacements, $this->mask);
     }
