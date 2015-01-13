@@ -8,7 +8,7 @@ use Thumbator\Service;
 /**
  * Thumbator latte helper
  *
- * @version 1.0-beta
+ * @version 1.0.0
  * @author Milan Felix Sulc <rkfelix@gmail.com>
  */
 class Helper

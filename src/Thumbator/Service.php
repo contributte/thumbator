@@ -11,7 +11,7 @@ use Nette\InvalidStateException;
 /**
  * Thumbator service - easy-use util for resizing images on website
  *
- * @version 1.0-beta
+ * @version 1.0.0
  * @author Milan Felix Sulc <rkfelix@gmail.com>
  *
  * @property-read Config $config
