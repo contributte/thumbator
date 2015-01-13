@@ -2,8 +2,8 @@
     "name": "f3l1x/thumbator",
     "type": "library",
     "description": "Easy-use util for resizing images on website.",
-    "license": "MIT",
-    "homepage": "http://github.com/f3l1x/Thumbator",
+    "license": "GNU",
+    "homepage": "https://github.com/f3l1x/Thumbator",
     "authors": [
         {
             "name": "Milan Felix Sulc",
