@@ -15,6 +15,6 @@ Easy-to-use util for resizing images on website.
 
 ## Install
 
-```sh
+```bash
 composer require minetro/thumbator:1.0.0
 ```
