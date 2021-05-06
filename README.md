@@ -1,20 +1,41 @@
-# Thumbator
+![](https://heatbadger.now.sh/github/readme/contributte/thumbator/?deprecated=1)
 
-Easy-to-use util for resizing images on website.
+<p align=center>
+    <a href="https://bit.ly/ctteg"><img src="https://badgen.net/badge/support/gitter/cyan"></a>
+    <a href="https://bit.ly/cttfo"><img src="https://badgen.net/badge/support/forum/yellow"></a>
+    <a href="https://contributte.org/partners.html"><img src="https://badgen.net/badge/sponsor/donations/F96854"></a>
+</p>
 
------
+<p align=center>
+    Website 🚀 <a href="https://contributte.org">contributte.org</a> | Contact 👨🏻‍💻 <a href="https://f3l1x.io">f3l1x.io</a> | Twitter 🐦 <a href="https://twitter.com/contributte">@contributte</a>
+</p>
 
-[![Build Status](https://img.shields.io/travis/minetro/thumbator.svg?style=flat-square)](https://travis-ci.org/minetro/thumbator)
-[![Downloads total](https://img.shields.io/packagist/dt/minetro/thumbator.svg?style=flat-square)](https://packagist.org/packages/minetro/thumbator)
-[![Latest stable](https://img.shields.io/packagist/v/minetro/thumbator.svg?style=flat-square)](https://packagist.org/packages/minetro/thumbator)
-[![HHVM Status](https://img.shields.io/hhvm/minetro/thumbator.svg?style=flat-square)](http://hhvm.h4cc.de/package/minetro/thumbator)
+## Disclaimer
 
-## Discussion / Help
+| :warning: | This project is no longer being maintained. Please use [contributte/image-storage](https://github.com/contributte/image-storage).
+|---|---|
 
-[![Join the chat](https://img.shields.io/gitter/room/minetro/nette.svg?style=flat-square)](https://gitter.im/minetro/nette?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+| Composer | [`minetro/thumbator`](https://packagist.org/minetro/thumbator) |
+|---| --- |
+| Version | ![](https://badgen.net/packagist/v/minetro/thumbator) |
+| PHP | ![](https://badgen.net/packagist/php/minetro/thumbator) |
+| License | ![](https://badgen.net/github/license/minetro/thumbator) |
 
 ## Install
 
 ```bash
 composer require minetro/thumbator:1.0.0
 ```
+
+## Development
+
+This package was maintain by these authors.
+
+<a href="https://github.com/f3l1x">
+  <img width="80" height="80" src="https://avatars2.githubusercontent.com/u/538058?v=3&s=80">
+</a>
+
+-----
+
+Consider to [support](https://contributte.org/partners.html) **contributte** development team.
+Also thank you for being used this package.
