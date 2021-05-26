@@ -4,4 +4,4 @@ install:
 	composer update
 
 tests:
-	vendor/bin/tester -p php -s ./tests
+	bash tests/run-tests.sh php tests
