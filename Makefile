@@ -4,4 +4,5 @@ install:
 	composer update
 
 tests:
-	bash tests/run-tests.sh php tests
+	vendor/bin/tester -s -p php --colors 1 -C tests/Thumbator
+
