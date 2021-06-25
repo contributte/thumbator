@@ -1,28 +1,32 @@
 {
-    "name": "minetro/thumbator",
-    "description": "Easy-use util for resizing images on website.",
-    "type": "library",
-    "license": ["BSD-3-Clause"],
-    "homepage": "https://github.com/minetro/thumbator",
-    "authors": [
-        {
-            "name": "Milan Felix Sulc",
-            "homepage": "http://jfx.cz"
-        }
-    ],
-    "require": {
-        "php": ">= 5.6 < 7.2",
-        "nette/utils": ">=2.2.0,<2.4.0",
-        "nette/http": ">=2.2.0,<2.4.0",
-        "ext-gd": "*"
-    },
-    "require-dev": {
-        "nette/tester": "~2.0.2"
-    },
-    "autoload": {
-        "classmap": ["src/"]
-    },
-    "config": {
-        "vendor-dir": "vendor"
+  "name": "minetro/thumbator",
+  "description": "Easy-use util for resizing images on website.",
+  "type": "library",
+  "license": [
+    "BSD-3-Clause"
+  ],
+  "homepage": "https://github.com/minetro/thumbator",
+  "authors": [
+    {
+      "name": "Milan Felix Sulc",
+      "homepage": "http://jfx.cz"
     }
+  ],
+  "require": {
+    "php": ">= 5.6 < 7.2",
+    "nette/utils": ">=2.2.0,<2.4.0",
+    "nette/http": ">=2.2.0,<2.4.0",
+    "ext-gd": "*"
+  },
+  "require-dev": {
+    "nette/tester": "~2.0.2"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "config": {
+    "vendor-dir": "vendor"
+  }
 }
