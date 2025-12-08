@@ -15,7 +15,7 @@
 | :warning: | This project is no longer being maintained. Please use [contributte/image-storage](https://github.com/contributte/image-storage).
 |---|---|
 
-| Composer | [`minetro/thumbator`](https://packagist.org/minetro/thumbator) |
+| Composer | [`minetro/thumbator`](https://packagist.org/packages/minetro/thumbator) |
 |---| --- |
 | Version | ![](https://badgen.net/packagist/v/minetro/thumbator) |
 | PHP | ![](https://badgen.net/packagist/php/minetro/thumbator) |
